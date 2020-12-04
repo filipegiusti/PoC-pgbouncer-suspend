@@ -1,0 +1,1 @@
+bin/start_database && bin/resume_connection_pooler
