@@ -17,4 +17,3 @@ services:
       DB_PASSWORD: "spider_pass"
       PGPASSWORD: "spider_pass"
       DB_HOST: "database"
-      DB_NAME: "postgres"
