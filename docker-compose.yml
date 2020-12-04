@@ -17,3 +17,10 @@ services:
       DB_PASSWORD: "spider_pass"
       PGPASSWORD: "spider_pass"
       DB_HOST: "database"
+  client:
+    image: postgres:9.6
+    environment:
+      PGUSER: "postgres"
+      PGPASSWORD: "spider_pass"
+      PGHOST: "database"
+    command: tail -f /dev/null
