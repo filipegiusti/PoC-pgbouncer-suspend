@@ -1,0 +1,1 @@
+docker-compose exec client pgbench --client=4 --jobs=2 --time=${1:-3} --progress=1 -h connection-pooler

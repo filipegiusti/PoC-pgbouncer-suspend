@@ -1,0 +1,1 @@
+docker-compose exec client psql -h connection-pooler pgbouncer -c "$@"
